@@ -1,0 +1,10 @@
+A, B, C = input().split()
+A = float(A)
+B = float(B)
+C = float(C)
+pi = 3.14159
+print("TRIANGULO: {0:.3f}".format((1/2)*A*C))
+print("CIRCULO: {0:.3f}".format(pi*(C*C)))
+print("TRAPEZIO: {0:.3f}".format((1/2)*(A+B)*C))
+print("QUADRADO: {0:.3f}".format(B*B))
+print("RETANGULO: {0:.3f}".format(A*B))
