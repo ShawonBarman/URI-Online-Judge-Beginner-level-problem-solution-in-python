@@ -1,0 +1,13 @@
+x, y, z = input().split()
+x = int(x)
+y = int(y)
+z = int(z)
+list_sort = [x,y,z]
+list_sort.sort()
+print(list_sort[0])
+print(list_sort[1])
+print(list_sort[2])
+print()
+print(x)
+print(y)
+print(z)
