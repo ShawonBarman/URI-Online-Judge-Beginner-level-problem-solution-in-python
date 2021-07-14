@@ -1,0 +1,5 @@
+date = input()
+d, m, y = date.split("/")
+print(m+"/"+d+"/"+y)
+print(y+"/"+m+"/"+d)
+print(d+"-"+m+"-"+y)
